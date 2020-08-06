@@ -3,7 +3,7 @@ import './About.css'
 import useWebAnimations, { fadeInDown } from "@wellyshen/use-web-animations";
 
 export const About = () => {
-    const { y } = useWebAnimations({ ...fadeInDown });
+    const { ref: y } = useWebAnimations({ ...fadeInDown });
     return (
         <div className="abt">
             <h1>About us</h1>
