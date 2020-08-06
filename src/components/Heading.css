@@ -1,0 +1,18 @@
+.heading h1 {
+font-family: fantasy;
+color: linear-gradient(to bottom right, rgba(250, 8, 8, 0.801), rgb(180, 180, 16));
+font-size: 33px;
+font-stretch: extra-expanded;
+font-weight: 1em;
+font-family: fantasy;
+background: -webkit-linear-gradient(rgba(250, 8, 8, 0.801), rgb(180, 180, 16));
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heading {
+    text-align: center;
+    justify-content: center;
+    float: right;
+    margin-top: 20%;
+}
