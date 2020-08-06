@@ -1,0 +1,73 @@
+.volcanoico {
+    margin-top: 10%;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-left: 18%;
+}
+
+#drop1 {
+    animation: erupt 0.5s ease-out infinite alternate;
+    
+    
+ }
+ #drop2 {
+     animation: erupt 0.5s ease-out infinite alternate;
+     
+  }
+#drop3 {
+   animation: erupt 0.5s ease-out infinite alternate;
+   
+}
+#drop4 {
+    animation: erupt 0.5s ease-out infinite alternate;
+    
+ }
+ #middle_drop {
+    animation: erupt_middle 0.5s ease-out infinite alternate;
+    
+ }
+ #dropbg1 {
+    animation: erupt_sides 0.5s ease-out infinite alternate;
+   
+ }
+  #dropbg2 {
+    animation: erupt_sides 0.5s ease-out infinite alternate;
+
+ } 
+@keyframes erupt {
+    from {
+transform: translateY(0px);
+    }
+    to {
+transform: translateY(-50px);
+    }
+}
+@keyframes erupt_middle {
+    from {
+transform: translateY(0px);
+    }
+    to {
+transform: translateY(-90px);
+    }
+}
+@keyframes erupt_sides {
+    from {
+transform: translateY(0px);
+    }
+    to {
+transform: translateY(-150px);
+    } 
+}
+#Volcano_body {
+animation: volmov 0.5s ease-in-out infinite alternate;
+transform-origin: bottom;
+}
+@keyframes volmov {
+    from {
+transform: rotateX(0deg);
+    }
+    to {
+transform: rotateX(-30deg);
+    }
+}
+
